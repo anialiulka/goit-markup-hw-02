@@ -1,0 +1,38 @@
+
+
+:root{--background-color:#E5E5E5;
+--primary-text-color:#434455; 
+--secondary-text-color:#2E2F42;
+--secondary-background-color:#F4F4FD;
+--logo-hover-color:#4D5AE5;
+--button-background-color:#E7E9FC;
+--alternative-text-color:#FFFFFF;}
+/* main page */
+body { background-color:var(--background-color);color:var(--primary-text-color);}
+/* navigation */
+.site-nav .link {color:var(--secondary-text-color)}
+.site-nav .link:hover, .site-nav .link:focus {color:var(--logo-hover-color)}
+.list{list-style: none;}
+.contacts{color:var(--primary-text-color)}
+.contacts:hover, .contacts:focus {color:var(--logo-hover-color)}
+/* hero */
+.hero{background-color: var(--secondary-text-color);}
+.hero>.heading{color:var(--alternative-text-color)}
+.hero-btn{color:var(--alternative-text-color);background-color: var(--logo-hover-color);}
+/* values */
+.values .heading {color:var(--secondary-text-color)}
+/* work */
+.work .heading{
+        color: var(--secondary-text-color)}
+        /* our team */
+        .team {background-color: var(--secondary-background-color);}
+        .team .heading{color:var(--secondary-text-color)}
+        .team .name{color:var(--secondary-text-color)}
+        /* footer */
+        .footer {background-color:var(--secondary-text-color)}
+        .footer-text{color:var(--button-background-color)}
+        /* portfolio  */
+        .portfolio-btn{background-color: var(--button-background-color);color:var(--logo-hover-color)}
+                .portfolio-btn:hover, .portfolio-btn:focus{background-color: #4D5AE5;color:var(--alternative-text-color)}
+                /* projects */
+                .projects .heading{color:var(--secondary-text-color)}
